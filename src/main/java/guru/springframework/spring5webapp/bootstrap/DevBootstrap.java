@@ -27,7 +27,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
         initData();
-    }
+    } //método importante, é chamado ao iniciar servidor
 
 
     public void initData() {
